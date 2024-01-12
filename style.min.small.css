@@ -1,0 +1,6 @@
+@media only screen and (max-width: 712px)  and (min-width: 481px){
+    /* Styles spécifiques pour les tablettes */
+    header {
+        background-color: black;
+    }
+}

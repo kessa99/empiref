@@ -1,0 +1,62 @@
+@media only screen and (max-width: 915px) {
+    /* Styles spécifiques pour les ordinateurs portables */
+
+    /* header */
+
+
+    /* home */
+    .home-body{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .elt-us{
+        display: none;
+    }
+
+
+    /* expertise-values */
+    #expertise{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2em;
+    }
+    #expertise-elt{
+        margin: 2em;
+        width: 100%;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .values-list-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2em;
+    }
+
+
+    /* service */
+    #service {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    .service{
+        width: 80%;
+    }
+    .service-middle-card{
+        width: 80%;
+    }
+
+    /* team/menbers */
+    .contain_slider{
+        width: 70%;
+        height: 30vh;
+    }
+    .caroussel{
+        border-bottom: 3px;
+    }
+}

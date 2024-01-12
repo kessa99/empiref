@@ -1,0 +1,125 @@
+@media only screen and (max-width: 738px) {
+    /* Styles spécifiques pour les petits écrans */
+
+    /* header */
+    .header-logo h1{
+        font-size: 21px;
+    }
+    .header-logo svg{
+        font-size: 12px;
+    }
+    header svg {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav .nav-bar{
+        display: none;
+    }
+    nav a{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    #call{
+        padding: .5em 1em
+    }
+
+
+    /* home */
+
+    .home-body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .elt-us{
+        display: none;
+    }
+
+
+    /* expertise-values */
+    .expertise-values{
+        height: auto;
+    }
+    
+    #expertise {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2em;
+    }
+    #expertise-elt{
+        justify-content: center;
+        padding: 1em;
+        width: 100%;
+
+    }
+
+    .vertical-line{
+        display: none;
+    }
+    .values-list-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+
+    #about{
+        justify-content: center;
+        padding: 1em;
+    }
+    .elt-about img{
+        display: none;
+    }
+
+    /* SERVICE PETIT ECRAN */
+
+    #service{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .rezo a {
+        font-size: 2rem;
+        color: black;
+    }
+
+    #hash-end {
+        height: 2rem;
+        width: 2rem;
+    }
+
+
+    /* navbar */
+
+    .menu{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: aliceblue;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    /* team/menbers */
+    .contain_slider{
+        width: 100%;
+        height: 40vh;
+
+    }
+    .caroussel{
+        border-bottom: 3px;
+    }
+}
+
